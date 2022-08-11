@@ -1,0 +1,56 @@
+body{
+    background-color:#5f9ea0; 
+    font-family:'Roboto',sans-serif;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  .Form2022 {
+	width: 500px;
+	background: #073C5D;
+	padding: 25px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 4px;
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+  }
+  
+  .Form2022 h1 {
+	font-size: 25px;
+	margin-bottom: 20px;
+  }
+  
+  .controlls {
+	width: 75%;
+	background: #073C5D;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #1f53c5;
+	font-family: 'calibri';
+	font-size: 18px;
+	color: white;
+  }
+  
+  
+  
+  .Form2022 .Button {
+	width: 75%;
+	background: #1f53c5;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+	cursor: pointer;
+  }
+
+  @media screen and (max-width: 480px){
+    div{
+        background-color: red;
+    }
+}
